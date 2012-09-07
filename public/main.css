@@ -1,0 +1,32 @@
+body {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serf;
+  font-size: 0.8em;
+  color: #666;
+  line-height: 150%;
+  margin: 5%;
+}
+
+th {
+  color: #000;
+  font-size: 1.3em;
+}
+
+/*table {
+  border-style: solid;
+  border-color: #ccc;
+  padding: 1%;
+  border-width: 1px;
+}*/
+
+td {
+  padding: 1%;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #000;
+}

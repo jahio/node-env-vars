@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/main.css">
+  <title>Environment Variables</title>
+</head>
+
+<body>
+  <h1>Environment Variables</h1>
+  <p>The following environment variables are visible to your Node.js process right now.</p>
+
+  <table cellpadding="3" cellspacing="3">
+    <tr>
+      <th align="left" valign="top">Variable</th>
+      <th align="left" valign="top">Value</th>
+    </tr>
+    <% for(v in env_vars) { %>
+    <tr>
+      <td align="left" valign="top"><%= v %></td>
+      <td align="left" valign="top"><%= env_vars[v] %></td>
+    </tr>
+    <% } %>
+  </table>
+</body>
+</html>
